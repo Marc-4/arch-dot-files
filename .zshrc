@@ -132,7 +132,7 @@ alias termshark="termshark"
 alias oryx="oryx"
 alias trip_loc="trip --geoip-mmdb-file ./Documents/GeoLite2-City.mmdb --tui-geoip-mode short"
 alias backup_zconf="tar -cf zshrc_$(date --iso-8601).tar .zshrc"
-
+alias nv="nvim"
 # alias apps="alias | rg '#@app' | rg -v '^apps=' | sed 's/; true #@app'\''/'\''/'"
 
 export PATH="$HOME/.cargo/bin:$PATH"

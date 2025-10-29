@@ -17,6 +17,12 @@ config.color_scheme = 'Gruvbox dark, hard (base16)'
 config.use_fancy_tab_bar = true
 config.font = wezterm.font 'MonaspiceNe Nerd Font Mono'
 config.font_size = 12
+config.window_background_opacity = 1
+config.kde_window_background_blur = true
+config.cursor_blink_rate = 150
+config.default_cursor_style = 'BlinkingBlock'
+config.cursor_blink_ease_in = "Constant"
+config.cursor_blink_ease_out = "Constant"
 
 config.keys = {
 		{ key = 't', mods = 'SHIFT|CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
