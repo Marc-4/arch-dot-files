@@ -14,10 +14,11 @@ config.initial_rows = 30
 config.color_scheme = 'Gruvbox dark, hard (base16)'
 -- config.color_scheme = 'Railscasts (dark) (terminal.sexy)'
 -- config.color_scheme = 'Gruvbox light, hard (base16)'
-config.use_fancy_tab_bar = true
+config.use_fancy_tab_bar = false
+config.hide_tab_bar_if_only_one_tab = true
 config.font = wezterm.font 'MonaspiceNe Nerd Font Mono'
 config.font_size = 12
-config.window_background_opacity = 1
+config.window_background_opacity = 0.85
 config.kde_window_background_blur = true
 config.cursor_blink_rate = 150
 config.default_cursor_style = 'BlinkingBlock'
@@ -28,7 +29,7 @@ config.keys = {
 		{ key = 't', mods = 'SHIFT|CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
 		{ key = 't', mods = 'CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
 		{ key = 'w', mods = 'SHIFT|CTRL', action = act.CloseCurrentTab{ confirm = true } },
-		{ key = 'w', mods = 'CTRL', action = act.CloseCurrentTab{ confirm = true } },
+--		{ key = 'w', mods = 'CTRL', action = act.CloseCurrentTab{ confirm = true } },
 		{key = 'Enter', mods = 'ALT', action = wezterm.action.DisableDefaultAssignment,
 		 },
 	}
