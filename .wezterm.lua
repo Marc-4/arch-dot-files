@@ -26,7 +26,8 @@ config.cursor_blink_ease_in = "Constant"
 config.cursor_blink_ease_out = "Constant"
 
 config.keys = {
-		{ key = 't', mods = 'SHIFT|CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
+		{ key = 't', mods = 'SHIFT|CTRL', action = act.SplitPane {direction = 'Right'} },
+		{ key = 'b', mods = 'SHIFT|CTRL', action = act.SplitPane {direction = 'Down'} },
 		{ key = 't', mods = 'CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
 		{ key = 'w', mods = 'SHIFT|CTRL', action = act.CloseCurrentTab{ confirm = true } },
 --		{ key = 'w', mods = 'CTRL', action = act.CloseCurrentTab{ confirm = true } },
