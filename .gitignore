@@ -1,7 +1,7 @@
 *
+.config/
 !.zshrc
 !.wezterm.lua
 !.rustscan.toml
 !.config/nvim/
-!.config/
 !.gitignore
