@@ -133,6 +133,7 @@ alias trip_loc="trip --geoip-mmdb-file ./Documents/GeoLite2-City.mmdb --tui-geoi
 alias backup_zconf="tar -cf zshrc_$(date --iso-8601).tar .zshrc"
 alias nv="nvim"
 alias br="br -h -gi"
+alias atac="atac"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR="micro"
