@@ -1,0 +1,6 @@
+*
+!.zshrc
+!.wezterm.lua
+!.rustscan.toml
+!.config/nvim/
+!.gitignore
