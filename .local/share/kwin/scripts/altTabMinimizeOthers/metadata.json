@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Id": "altTabMinimizeOthers",
+        "Name": "AltTab Minimize Others",
+        "Description": "Minimizes all windows except the one switched to via Alt+Tab",
+        "Version": "1.0",
+        "License": "GPL",
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API": "javascript",
+    "KPackageStructure": "KWin/Script"
+}
+

@@ -5,3 +5,9 @@
 !.rustscan.toml
 !.config/nvim/
 !.gitignore
+!./Documents/Scriptum/
+!.local/share/kwin/scripts/
+!~/.config/broot/
+!~./.config/mpv/
+!~./.config/mpd/
+
