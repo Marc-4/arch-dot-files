@@ -108,6 +108,8 @@ alias backup_zconf="tar -cf zshrc_$(date --iso-8601).tar .zshrc"
 alias nv="nvim"
 alias br="br -h -gi"
 alias atac="atac"
+alias sampler="sampler -c ~/config.yml"
+
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # Fish-like syntax highlighting and autosuggestions
@@ -123,6 +125,8 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export FZF_BASE=/usr/share/fzf
+export FZF_BASE=/usr/share/fzf 
+export EDITOR=nvim
 eval "$(zoxide init zsh)"
 source /home/marc/.config/broot/launcher/bash/br
+

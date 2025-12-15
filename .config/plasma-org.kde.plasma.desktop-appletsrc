@@ -42,8 +42,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=100
-popupHeight=451
-popupWidth=810
+popupHeight=459
+popupWidth=818
 
 [Containments][2][Applets][19][Configuration][Appearance]
 autoFontAndSize=false
@@ -155,7 +155,7 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][40][Configuration][General]
 expanding=false
-length=160
+length=90
 
 [Containments][2][Applets][41]
 immutability=1
@@ -166,7 +166,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][41][Configuration][General]
-launchers=preferred://browser
+launchers=[8c306f03-7ea1-4e0b-a76d-4b268e3c1755\\,a2647494-dd6a-4938-a44f-82168b652219]\napplications:brave-browser.desktop
 showToolTips=false
 
 [Containments][2][Applets][42]
@@ -175,8 +175,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][42][Configuration]
 PreloadWeight=100
-popupHeight=501
-popupWidth=701
+popupHeight=521
+popupWidth=719
 
 [Containments][2][Applets][42][Configuration][ConfigDialog]
 DialogHeight=630
@@ -186,7 +186,7 @@ DialogWidth=810
 applicationsDisplay=0
 compactMode=true
 favoritesPortedToKAstats=true
-icon=distributor-logo-cachyos
+icon=org.kde.archUpdate
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][50]
@@ -211,6 +211,7 @@ DialogWidth=810
 [Containments][2][Applets][51][Configuration][General]
 displayedText=Number
 showWindowIcons=true
+showWindowOutlines=false
 
 [Containments][2][Applets][52]
 immutability=1
@@ -263,24 +264,11 @@ network/all/downloadBits=250,189,47
 
 [Containments][2][Applets][55][Configuration][SensorLabels]
 network/all/download=DO
-network/all/downloadBits=▼
+network/all/downloadBits=DOWN ▼
 
 [Containments][2][Applets][55][Configuration][Sensors]
 highPrioritySensorIds=["network/all/downloadBits"]
 totalSensors=["network/all/downloadBits"]
-
-[Containments][2][Applets][57]
-immutability=1
-plugin=zayron.simple.separator
-
-[Containments][2][Applets][57][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][57][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
 
 [Containments][2][Applets][58]
 immutability=1
@@ -307,7 +295,7 @@ network/all/uploadBits=211,134,155
 
 [Containments][2][Applets][58][Configuration][SensorLabels]
 network/all/upload=UP
-network/all/uploadBits=▲
+network/all/uploadBits=UP ▲
 
 [Containments][2][Applets][58][Configuration][Sensors]
 highPrioritySensorIds=["network/all/uploadBits"]
@@ -327,32 +315,6 @@ checkColorCustom=true
 customColors=131,165,152
 opacity=80
 
-[Containments][2][Applets][60]
-immutability=1
-plugin=zayron.simple.separator
-
-[Containments][2][Applets][60][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][60][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
-
-[Containments][2][Applets][63]
-immutability=1
-plugin=zayron.simple.separator
-
-[Containments][2][Applets][63][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][63][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
-
 [Containments][2][Applets][7]
 activityId=
 formfactor=0
@@ -360,8 +322,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=440
+popupWidth=440
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][7][Applets][10]
@@ -388,7 +350,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][2][Applets][7][Applets][14][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][15]
 immutability=1
@@ -404,12 +366,15 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][2][Applets][7][Applets][16][Configuration]
 PreloadWeight=100
 
+[Containments][2][Applets][7][Applets][16][Configuration][General]
+currentDetailsTab=details
+
 [Containments][2][Applets][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][17][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][2][Applets][7][Applets][17][Configuration][General]
 migrated=true
@@ -430,14 +395,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=19
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
@@ -455,7 +420,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][2][Applets][7][Applets][9][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][2][Applets][7][ConfigDialog]
 DialogHeight=630
@@ -467,7 +432,7 @@ hiddenItems=Easy Effects,org.kde.plasma.brightness,org.kde.plasma.battery
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
 
 [Containments][2][General]
-AppletOrder=42;53;51;50;52;41;63;19;60;40;57;37;38;39;55;58;59;7
+AppletOrder=42;53;51;50;52;41;19;40;37;38;39;55;58;59;7
 
 [Containments][28]
 ItemGeometries-1920x1080=
@@ -502,5 +467,5 @@ wallpaperplugin=org.kde.image
 Image=/home/marc/Pictures/bg/macro.jpg
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,203d22fc-ab4d-4f51-9d5c-3798529a10c3,1,desktop:/firefox.desktop
-screenMapping=
+itemsOnDisabledScreens=
+screenMapping=desktop:/firefox.desktop,0,203d22fc-ab4d-4f51-9d5c-3798529a10c3

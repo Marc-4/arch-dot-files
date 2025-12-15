@@ -13,12 +13,13 @@ config.initial_rows = 30
 -- or, changing the font size and color scheme.
 config.color_scheme = 'Gruvbox dark, hard (base16)'
 -- config.color_scheme = 'Railscasts (dark) (terminal.sexy)'
--- config.color_scheme = 'Gruvbox light, hard (base16)'
+-- config.color_scheme = 'Gruvbox light, soft (base16)'
+
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 config.font = wezterm.font 'MonaspiceNe Nerd Font Mono'
 config.font_size = 12
--- config.window_background_opacity = 0.85
+config.window_background_opacity = 0.97
 -- config.kde_window_background_blur = true
 config.cursor_blink_rate = 150
 config.default_cursor_style = 'BlinkingBlock'
