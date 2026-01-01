@@ -374,7 +374,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][17][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][2][Applets][7][Applets][17][Configuration][General]
 migrated=true
@@ -450,7 +450,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=/home/marc/Pictures/bg/circuit.jpg
+Image=file:///home/marc/Pictures/bg/koi-fish.png
+SlidePaths=/home/marc/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][29]
 ItemGeometries-1920x1080=
@@ -463,9 +464,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][29][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=/home/marc/Pictures/bg/macro.jpg
+Image=file:///home/marc/Pictures/bg/snake.png
+SlidePaths=/home/marc/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/firefox.desktop,0,203d22fc-ab4d-4f51-9d5c-3798529a10c3
+itemsOnDisabledScreens=0,203d22fc-ab4d-4f51-9d5c-3798529a10c3,1,desktop:/firefox.desktop
+screenMapping=
