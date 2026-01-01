@@ -1,13 +1,13 @@
-*
-.config/
+/*
+
 !.zshrc
 !.wezterm.lua
 !.rustscan.toml
-!.config/nvim/
 !.gitignore
-!./Documents/Scriptum/
-!.local/share/kwin/scripts/
-!~/.config/broot/
-!~./.config/mpv/
-!~./.config/mpd/
 
+!.config/nvim/**
+!.local/share/kwin/scripts/**
+!.config/broot/**
+!.config/mpv/**
+!.config/mpd/**
+!Documents/Scriptum/**
