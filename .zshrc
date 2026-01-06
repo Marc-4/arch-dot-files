@@ -126,6 +126,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export FZF_BASE=/usr/share/fzf 
+export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore-vcs'
 export EDITOR=nvim
 eval "$(zoxide init zsh)"
 source /home/marc/.config/broot/launcher/bash/br
