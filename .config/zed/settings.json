@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "tab_size": 2,
   "lsp_document_colors": "inlay",
   "indent_guides": {
     "background_coloring": "disabled",
@@ -29,7 +30,7 @@
   "buffer_font_size": 15.0,
   "theme": {
     "mode": "dark",
-    "light": "Gruvbox Light Hard",
+    "light": "Gruvbox Material Light Hard",
     "dark": "Gruvbox Material Dark Mix"
   },
   "languages": {
