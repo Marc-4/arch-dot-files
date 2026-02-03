@@ -106,7 +106,7 @@ alias oryx="oryx"
 alias trip_loc="trip --geoip-mmdb-file ./Documents/GeoLite2-City.mmdb --tui-geoip-mode short -z -r cloudflare"
 alias backup_zconf="tar -cf zshrc_$(date --iso-8601).tar ~/.zshrc"
 alias nv="nvim"
-alias br="br -h -gi --max-depth 1"
+alias br="br -h -gi"
 alias atac="atac"
 alias sampler="sampler -c ~/config.yml"
 
@@ -131,3 +131,9 @@ export EDITOR=nvim
 eval "$(zoxide init zsh)"
 source /home/marc/.config/broot/launcher/bash/br
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export JAVA_TOOL_OPTIONS=-Xmx10g
