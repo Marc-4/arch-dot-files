@@ -4,29 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=a2647494-dd6a-4938-a44f-82168b652219
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][1][General]
-positions={"1920x1080":["1","17"]}
-sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/marc/Pictures/bg/wave.png
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -73,7 +50,8 @@ popupWidth=187
 
 [Containments][2][Applets][37][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
-showTitle=false
+showTitle=true
+title=CPU
 updateRateLimit=1000
 
 [Containments][2][Applets][37][Configuration][ConfigDialog]
@@ -84,7 +62,7 @@ DialogWidth=810
 cpu/all/usage=131,165,152
 
 [Containments][2][Applets][37][Configuration][SensorLabels]
-cpu/all/usage=CPU
+cpu/all/usage=\s
 
 [Containments][2][Applets][37][Configuration][Sensors]
 highPrioritySensorIds=["cpu/all/usage"]
@@ -97,13 +75,14 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][38][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=85
+PreloadWeight=100
 popupHeight=69
 popupWidth=187
 
 [Containments][2][Applets][38][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
-showTitle=false
+showTitle=true
+title=Memory
 updateRateLimit=1000
 
 [Containments][2][Applets][38][Configuration][ConfigDialog]
@@ -114,7 +93,7 @@ DialogWidth=810
 memory/physical/usedPercent=251,73,52
 
 [Containments][2][Applets][38][Configuration][SensorLabels]
-memory/physical/usedPercent=RAM
+memory/physical/usedPercent=\s
 
 [Containments][2][Applets][38][Configuration][Sensors]
 highPrioritySensorIds=["memory/physical/usedPercent"]
@@ -132,7 +111,8 @@ popupWidth=187
 
 [Containments][2][Applets][39][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
-showTitle=false
+showTitle=true
+title=GPU
 updateRateLimit=1000
 
 [Containments][2][Applets][39][Configuration][ConfigDialog]
@@ -143,7 +123,7 @@ DialogWidth=810
 gpu/all/usage=142,192,124
 
 [Containments][2][Applets][39][Configuration][SensorLabels]
-gpu/all/usage=GPU
+gpu/all/usage=\s
 
 [Containments][2][Applets][39][Configuration][Sensors]
 highPrioritySensorIds=["gpu/all/usage"]
@@ -154,8 +134,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][40][Configuration][General]
-expanding=false
-length=90
+length=1920
 
 [Containments][2][Applets][41]
 immutability=1
@@ -166,7 +145,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][41][Configuration][General]
-launchers=[8c306f03-7ea1-4e0b-a76d-4b268e3c1755\\,a2647494-dd6a-4938-a44f-82168b652219]\napplications:brave-browser.desktop
+launchers=applications:vivaldi-snapshot.desktop,applications:dev.zed.Zed.desktop
 showToolTips=false
 
 [Containments][2][Applets][42]
@@ -189,17 +168,6 @@ favoritesPortedToKAstats=true
 icon=org.kde.archUpdate
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
-[Containments][2][Applets][50]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][2][Applets][50][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][50][Configuration][General]
-showWindowOutlines=false
-
 [Containments][2][Applets][51]
 immutability=1
 plugin=org.kde.plasma.activitypager
@@ -213,107 +181,23 @@ displayedText=Number
 showWindowIcons=true
 showWindowOutlines=false
 
-[Containments][2][Applets][52]
+[Containments][2][Applets][63]
 immutability=1
-plugin=zayron.simple.separator
+plugin=org.kde.plasma.minimizeall
 
-[Containments][2][Applets][52][Configuration][ConfigDialog]
+[Containments][2][Applets][63][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
-[Containments][2][Applets][52][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
+[Containments][2][Applets][63][Shortcuts]
+global=Meta+D
 
-[Containments][2][Applets][53]
+[Containments][2][Applets][64]
 immutability=1
-plugin=zayron.simple.separator
+plugin=org.kde.plasma.panelspacer
 
-[Containments][2][Applets][53][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][53][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
-
-[Containments][2][Applets][55]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][2][Applets][55][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=100
-popupHeight=67
-popupWidth=220
-
-[Containments][2][Applets][55][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-showTitle=false
-updateRateLimit=1000
-
-[Containments][2][Applets][55][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][55][Configuration][SensorColors]
-network/all/download=143,131,165
-network/all/downloadBits=250,189,47
-
-[Containments][2][Applets][55][Configuration][SensorLabels]
-network/all/download=DO
-network/all/downloadBits=DOWN ▼
-
-[Containments][2][Applets][55][Configuration][Sensors]
-highPrioritySensorIds=["network/all/downloadBits"]
-totalSensors=["network/all/downloadBits"]
-
-[Containments][2][Applets][58]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][2][Applets][58][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=100
-popupHeight=31
-popupWidth=220
-
-[Containments][2][Applets][58][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-showTitle=false
-updateRateLimit=1000
-
-[Containments][2][Applets][58][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][58][Configuration][SensorColors]
-network/all/upload=131,165,150
-network/all/uploadBits=211,134,155
-
-[Containments][2][Applets][58][Configuration][SensorLabels]
-network/all/upload=UP
-network/all/uploadBits=UP ▲
-
-[Containments][2][Applets][58][Configuration][Sensors]
-highPrioritySensorIds=["network/all/uploadBits"]
-lowPrioritySensorIds=[]
-totalSensors=["network/all/uploadBits"]
-
-[Containments][2][Applets][59]
-immutability=1
-plugin=zayron.simple.separator
-
-[Containments][2][Applets][59][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][59][Configuration][General]
-checkColorCustom=true
-customColors=131,165,152
-opacity=80
+[Containments][2][Applets][64][Configuration][General]
+length=1600
 
 [Containments][2][Applets][7]
 activityId=
@@ -343,7 +227,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][2][Applets][7][Applets][13][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -374,7 +258,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][17][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][17][Configuration][General]
 migrated=true
@@ -402,14 +286,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=22
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][7][Applets][8]
 immutability=1
@@ -427,17 +311,68 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][7][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.battery
-hiddenItems=Easy Effects,org.kde.plasma.brightness,org.kde.plasma.battery
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.battery
+hiddenItems=Easy Effects,org.kde.plasma.brightness,flameshot
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume
+shownItems=org.kde.plasma.battery
+
+[Containments][2][Applets][80]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][2][Applets][81]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+transient=true
+
+[Containments][2][Applets][81][Configuration][General]
+expanding=false
+length=60
+
+[Containments][2][Applets][82]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][2][Applets][82][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][83]
+immutability=1
+plugin=org.kde.plasma.systemmonitor
+
+[Containments][2][Applets][83][Configuration]
+CurrentPreset=org.kde.plasma.systemmonitor
+PreloadWeight=100
+popupHeight=67
+popupWidth=221
+
+[Containments][2][Applets][83][Configuration][Appearance]
+chartFace=org.kde.ksysguard.textonly
+title=Temperature
+updateRateLimit=1000
+
+[Containments][2][Applets][83][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][83][Configuration][SensorColors]
+cpu/all/averageTemperature=215,153,33
+
+[Containments][2][Applets][83][Configuration][SensorLabels]
+cpu/all/averageTemperature=\s
+
+[Containments][2][Applets][83][Configuration][Sensors]
+highPrioritySensorIds=["cpu/all/averageTemperature"]
+totalSensors=["cpu/all/averageTemperature"]
 
 [Containments][2][General]
-AppletOrder=42;53;51;50;52;41;19;40;37;38;39;55;58;59;7
+AppletOrder=42;51;41;64;19;40;80;37;38;39;83;82;7;63
 
-[Containments][28]
+[Containments][60]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=8c306f03-7ea1-4e0b-a76d-4b268e3c1755
+activityId=3f9ab266-60e6-4fac-b1c6-fe0fc8929d1c
 formfactor=0
 immutability=1
 lastScreen=0
@@ -445,18 +380,11 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][28][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+[Containments][60][Wallpaper][org.kde.image][General]
+Image=/home/marc/Pictures/bg/limits.png
 
-[Containments][28][Wallpaper][org.kde.image][General]
-Image=file:///home/marc/Pictures/bg/koi-fish.png
-SlidePaths=/home/marc/.local/share/wallpapers/,/usr/share/wallpapers/
-
-[Containments][29]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=203d22fc-ab4d-4f51-9d5c-3798529a10c3
+[Containments][61]
+activityId=bb6828fe-0229-4af0-ad01-2bdfe0a8f0c7
 formfactor=0
 immutability=1
 lastScreen=0
@@ -464,13 +392,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][29][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+[Containments][61][Wallpaper][org.kde.image][General]
+Image=/home/marc/Pictures/bg/snake.png
 
-[Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///home/marc/Pictures/bg/snake.png
-SlidePaths=/home/marc/.local/share/wallpapers/,/usr/share/wallpapers/
+[Containments][62]
+activityId=b70a4957-01cb-407a-ab74-334a07d946fa
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][62][Wallpaper][org.kde.image][General]
+Image=/home/marc/Pictures/bg/peony.jpg
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,203d22fc-ab4d-4f51-9d5c-3798529a10c3,1,desktop:/firefox.desktop
