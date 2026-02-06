@@ -145,7 +145,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][41][Configuration][General]
-launchers=applications:vivaldi-snapshot.desktop,applications:dev.zed.Zed.desktop
+launchers=[3f9ab266-60e6-4fac-b1c6-fe0fc8929d1c\\,b70a4957-01cb-407a-ab74-334a07d946fa]\napplications:vivaldi-snapshot.desktop,[3f9ab266-60e6-4fac-b1c6-fe0fc8929d1c]\napplications:dev.zed.Zed.desktop
 showToolTips=false
 
 [Containments][2][Applets][42]
@@ -286,14 +286,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=22
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][8]
 immutability=1
@@ -319,15 +319,6 @@ shownItems=org.kde.plasma.battery
 [Containments][2][Applets][80]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
-
-[Containments][2][Applets][81]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-transient=true
-
-[Containments][2][Applets][81][Configuration][General]
-expanding=false
-length=60
 
 [Containments][2][Applets][82]
 immutability=1
