@@ -19,9 +19,9 @@
     }
   },
   {
-    "context": "Workspace && Editor",
+    "context": "(Dock || (Editor && vim_mode == normal))",
     "bindings": {
-      "ctrl-b": "workspace::ToggleLeftDock"
+      "space e": "workspace::ToggleLeftDock"
     }
   },
   {
