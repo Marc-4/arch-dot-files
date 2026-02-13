@@ -48,5 +48,11 @@
       "ctrl-shift-tab": "pane::ActivatePreviousItem",
       "ctrl-tab": "pane::ActivateNextItem"
     }
+  },
+  {
+    "context": "(Dock || (Editor && vim_mode == normal))",
+    "bindings": {
+      "space o": "project_panel::ToggleFocus"
+    }
   }
 ]
