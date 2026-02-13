@@ -90,7 +90,7 @@ alias wsc="websocat"
 alias mc="micro"
 alias hx="helix"
 alias airmon="airmon-ng"
-alias ff="fastfetch"
+alias ff="fastfetch -l ~/Documents/Scriptum/thinkpad-v.txt --logo-color-1 '#fb4934' --logo-color-2 '#ebdbb2' --logo-padding-top 4"
 alias cpty="copyparty"
 alias zel="zellij"
 alias lzdk="sudo lazydocker"
@@ -136,4 +136,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export JAVA_TOOL_OPTIONS=-Xmx10g
+# export JAVA_TOOL_OPTIONS=-Xmx10g
